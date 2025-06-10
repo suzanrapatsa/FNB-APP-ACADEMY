@@ -1,37 +1,26 @@
-table{
-    color: #fff;
-    text-align: center;
-    border-collapse: collapse;
-    font: normal 3em Arial, Helvetica, sans-serif;
+h1{
+	color: green;
+    font-family: sans-serif;
+}
+p{
+    
 }
 
-tr{
-    height: 16.02vh;
-    background-color: #4e494d;
+ul{
+    list-style-image: url('images/pointer-icon.png')
+}
+ol{
+    list-style-type: upper-roman;
 }
 
-td{
-    width: 25vw;
-    border: 1px solid #4e494d;
+#menu-bar a{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px;
 }
 
-#inputBox{
-    background-color: #808080;
-    text-align: right;
-    width: 100%;
-    font-size: 2em;
-    color: #fff;
-    border: 0px;
-}
-
-.digitButton{
-    background-color: #008080;
-}
-
-.operatorButton{
-    background-color: #008000;
-}
-
-.ACButton{
-    background-color: #808000;
+#menu-bar a:hover{
+    background-color: aqua;
+    color: #ffffff;
 }
